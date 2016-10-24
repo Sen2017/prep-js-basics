@@ -10,7 +10,9 @@
 * It should be a String.
 **/
 
-
+var firstName = "Edsen"
+var lastName = "Casintahan"
+var birthPlace = "Jupiter"
 
 /**
 * #2
@@ -22,6 +24,9 @@
 * Their values should be a Number
 **/
 
+var favoriteNumber = 31
+var currentYear = 2417
+var thatOnePrinceSong = 0
 
 
 /**
@@ -34,6 +39,10 @@
 * Their values should be a Boolean
 **/
 
+var isDaytime = false
+var isLeftHanded = true
+var inHawaii = true
+var isHappyCoding = true
 
 
 /**
@@ -45,7 +54,8 @@
 * Their values should be a Null value
 **/
 
-
+var enrolledAtDevLeague = null
+var completedFridayPrep = null
 
 /**
 * #5a
@@ -56,7 +66,7 @@
 * which can be found along the west coast of The United States.
 **/
 
-
+var westCoast = ["Washington", ""]
 
 /**
 * #5b
