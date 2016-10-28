@@ -66,7 +66,7 @@ var completedFridayPrep = null
 * which can be found along the west coast of The United States.
 **/
 
-var westCoast = ["Washington", ""]
+var westCoast = ["Washington", "Oregon", "California"]
 
 /**
 * #5b
@@ -77,7 +77,7 @@ var westCoast = ["Washington", ""]
 * Have at least ten even values in this array.
 **/
 
-
+var evenNumbers = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
 
 /**
 * #6a Arithmetic
@@ -90,7 +90,7 @@ var westCoast = ["Washington", ""]
 * Extend this behavior to include subtraction, multiplication and division.
 */
 
-
+//var sumOfNumbers 1 + 2 = 3
 
 
 /**
@@ -109,7 +109,7 @@ var westCoast = ["Washington", ""]
 *   operator(==) vs triple comparison operator(===).
 */
 
-
+var isEqual = "tacocat" == "Tacocat"
 
 /**
 * #6c Assignments
@@ -142,6 +142,10 @@ var westCoast = ["Washington", ""]
 **/
 
 
+function jump(height){
+	return "You jumped" +" " +height +" " + "feet high";
+	jump(9);
+}
 
 /**
 * #7b
@@ -153,3 +157,6 @@ var westCoast = ["Washington", ""]
 * if invoked in this way -> cook("Tomatoes", "Cheese", "Pizza");
 **/
 
+function cook(ingredient1, ingredient2, recipeName) {
+	return (ingredient1 +" " +ingredient2 +" " + "makes" +" " +recipeName)
+}
