@@ -1,0 +1,19 @@
+EDSEN
+
+If Touch my shoulder
+	yell "I LOVE HUSKIES!"
+
+Else if I touch CHristian's shoulder
+	yell "I LOVE BACON!"
+
+Else if I put one arm in the air
+	yell "HAIL Senior Tan"
+
+Else 
+	yell "I LOVE CODING, HUSKIES, AND BACON!"
+
+
+   
+
+
+
